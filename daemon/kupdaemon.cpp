@@ -135,7 +135,7 @@ void KupDaemon::updateTrayIcon() {
 			}
 			lIconName = BackupPlan::iconName(BackupPlan::BAD);
 			lToolTipIconName = BackupPlan::iconName(BackupPlan::BAD);
-			lToolTipSubTitle = xi18nc("@info:tooltip", "New backup neeeded");
+			lToolTipSubTitle = xi18nc("@info:tooltip", "New backup needed");
 		}
 	}
 	foreach(PlanExecutor *lExecutor, mExecutors) {
